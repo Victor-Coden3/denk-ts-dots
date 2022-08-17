@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "strict": true,
+
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "esModuleInterop": false,
+
+        "noEmit": true
+    },
+    "exclude": [ "dist", "node_modules" ]
+}

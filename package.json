@@ -1,0 +1,34 @@
+{
+    "name": "ts-dots",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Dotted object paths resolver with TypeScript autocompletion.",
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ntnp/ts-dots.git"
+    },
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "dist": "npm pack --pack-destination=\"./dist\"",
+        "postversion": "npm run dist"
+    },
+    "keywords": [
+        "typescript",
+        "dot-notation",
+        "dotted-paths",
+        "object-paths"
+    ],
+    "author": "Natan Pereira",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ntnp/ts-dots/issues"
+    },
+    "homepage": "https://github.com/ntnp/ts-dots#readme",
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "path-value": "^0.9.4"
+    }
+}
