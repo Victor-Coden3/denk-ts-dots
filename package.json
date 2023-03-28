@@ -1,6 +1,6 @@
 {
     "name": "ts-dots",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Dotted object paths resolver for TypeScript autocompletion.",
     "main": "src/index.ts",
     "repository": {
