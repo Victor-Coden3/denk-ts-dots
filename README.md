@@ -1,3 +1,3 @@
 # ts-dots
 
-Dotted object paths resolver with TypeScript autocompletion.
+Dotted object paths resolver for TypeScript autocompletion.

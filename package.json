@@ -1,8 +1,7 @@
 {
     "name": "ts-dots",
     "version": "2.0.0",
-    "private": true,
-    "description": "Dotted object paths resolver with TypeScript autocompletion.",
+    "description": "Dotted object paths resolver for TypeScript autocompletion.",
     "main": "src/index.ts",
     "repository": {
         "type": "git",
